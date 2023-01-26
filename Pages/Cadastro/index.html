@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css Geral -->
+    <link rel="stylesheet" href="../../stylesGeral.css">
+    <!-- Css da página -->
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastre-se | Sistema Financeiro</title>
+</head>
+
+<body>
+    <div class="container">
+        <main class="content">
+            <img class="logo-login" src="../../Images/logo.png" alt="logo sistema financeiro" />
+
+            <div class="text-container">
+                <h3>Novo Cadastro</h3>
+                <p>
+                    Insira seu nome e seu e-mail para ter acesso ao sistema financeiro e gerenciar suas finanças.
+                </p>
+            </div> <!-- text-container -->
+
+            <form id="form-register">
+                <div class="input-container">
+                    <label for="name">Nome:</label>
+                    <input id="name" type="text" placeholder="email@exemplo.com" required />
+                </div> <!-- input-container -->
+
+                <div class="input-container">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="email@exemplo.com" required />
+                </div> <!-- input-container -->
+
+                <button>Cadastrar</button>
+            </form> <!-- form -->
+
+            <a href="../Login/index.html">
+                Já possui uma conta? Faça seu login aqui.
+            </a>
+        </main> <!-- content -->
+    </div> <!-- container -->
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>

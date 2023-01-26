@@ -1,0 +1,51 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4f8699;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 30rem;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-login {
+    width: 10rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+form .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
